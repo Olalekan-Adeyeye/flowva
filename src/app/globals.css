@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: var(--font-outfit);
+  --color-bg: #fdf6ec;
+  --color-surface: #f5cba7;
+  --color-accent: #d98880;
+  --color-text: #3e2723;
+  --color-muted: #8d6e63;
+}
+
+@layer base {
+  body {
+    @apply font-outfit;
+  }
+}
+
+button {
+  cursor: pointer;
+}
